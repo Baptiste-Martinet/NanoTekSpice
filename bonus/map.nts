@@ -1,0 +1,25 @@
+.chipsets:
+input a (1)
+input b (0)
+input c (1)
+input d (0)
+4071 or
+4081 and
+output s
+output s2
+true true
+false false
+output outTrue
+output outFalse
+clock clock
+output outClock
+.links:
+a:1 or:1
+b:1 or:2
+c:1 and:1
+d:1 and:2
+or:3 s:1
+and:3 s2:1
+true:1 outTrue:1
+false:1 outFalse:1
+clock:1 outClock:1

@@ -1,0 +1,12 @@
+.chipsets:
+input a
+input b
+true true
+terminal terminal
+
+.links:
+a:1 terminal:1
+b:1 terminal:2
+a:1 terminal:6
+a:1 terminal:7
+true:1 terminal:10
